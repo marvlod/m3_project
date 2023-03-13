@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='m3_project',
@@ -8,5 +8,6 @@ setup(
     license='',
     author='vladimir',
     author_email='',
-    description='grade1 test'
+    description='grade1 test',
+    install_requires=['django==2.2', 'm3-builder', 'm3-django-compat==1.9.2','m3-objectpack==2.2.47']
 )
